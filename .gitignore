@@ -10,3 +10,4 @@ bin/FANN/showProgressiveResults.sh
 bin/FANN/src/*
 bin/FANN/myOut/*
 bin/FANN/my_trainValidTest_seedFib
+bin/SVM/libsvm-master/*

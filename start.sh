@@ -21,3 +21,5 @@ for f in `ls -1 dataIn/*`
    done
   bash bin/analyse.sh $f $line
  done
+
+ bash bin/prepareForMepx.sh

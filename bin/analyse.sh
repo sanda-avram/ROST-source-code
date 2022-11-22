@@ -66,3 +66,4 @@ echo "... generate $* frequency
         » "$fileIPoSFreq
 
 echo ""
+rm -rf $fileTemp

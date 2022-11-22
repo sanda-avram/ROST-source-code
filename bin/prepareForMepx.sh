@@ -1,13 +1,12 @@
 # bash prepareForMepx.sh conj
-# bash prepareForMepx.sh top30-42Word
-if [ $# -lt 1 ]
-then
-  echo "Usage: $0 <type: conj, top30-42Word> [<outDir>]"
-  exit
-fi
-type=$1
+# if [ $# -lt 1 ]
+# then
+#   echo "Usage: $0 [<type: conj, prep, P, PA, PAC>] [<outDir>]"
+#   # exit
+# fi
+type=${2-"IPoS"}
 dir=${2-"dataProc"}
-outDir="mepxSets/"${type}
+outDir="MEPsets/"${type}
 if [ ! -d $outDir ]
 then
   mkdir -p $outDir
@@ -147,3 +146,4 @@ sort -R $outDir"/auth_"$prevAuth > $outDir"/auth"
 head -n $trainLen $outDir"/auth" >> $outDir"/"$trainSet3
 head -n `expr $trainLen + $validLen` $outDir"/auth" | tail -n $validLen >> $outDir"/"$validSet3
 tail -n $testLen $outDir"/auth" >> $outDir"/"$testSet3
+rm -rf fileTemp

@@ -6,3 +6,7 @@ FANNsets/*
 kNNsets/*
 SVMSets/*
 DT_C5.0sets/*
+bin/FANN/showProgressiveResults.sh
+bin/FANN/src/*
+bin/FANN/myOut/*
+bin/FANN/my_trainValidTest_seedFib

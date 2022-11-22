@@ -1,3 +1,5 @@
+if [ $2 == "" ]
+then
 for f in `ls -1 dataIn/*`
  do
    if [ $# -lt 1 ]
@@ -21,5 +23,15 @@ for f in `ls -1 dataIn/*`
    done
   bash bin/analyse.sh $f $line
  done
+fi
 
+ echo " ...... prepareForMepx"
  bash bin/prepareForMepx.sh
+ echo " ...... convertMepx2FANN"
+ bash bin/convertMepx2FANN.sh MEPsets/IPoS/*Set[123]
+ echo " ...... convertMepx2kNN"
+ bash bin/convertMepx2kNN.sh MEPsets/IPoS/*Set[123]
+ echo " ...... convertMepx2SVM"
+ bash bin/convertMepx2SVM.sh MEPsets/IPoS/*Set[123]
+ echo " ...... convertMepx2C50"
+ bash bin/convertMepx2C50.sh MEPsets/IPoS/*Set[123]

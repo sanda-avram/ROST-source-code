@@ -2,3 +2,7 @@
 bin/freq
 dataProc/*
 MEPsets/*
+FANNsets/*
+kNNsets/*
+SVMSets/*
+DT_C5.0sets/*

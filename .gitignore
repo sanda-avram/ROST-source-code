@@ -11,3 +11,4 @@ bin/FANN/src/*
 bin/FANN/myOut/*
 bin/FANN/my_trainValidTest_seedFib
 bin/SVM/libsvm-master/*
+bin/DT_C5.0/C50/*

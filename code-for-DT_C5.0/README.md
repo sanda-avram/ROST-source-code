@@ -1,10 +1,9 @@
 # ROST-source-code
-## [code-for-DT_C5.0/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/)
 
-## Content:
+## Content of `code-for-DT_C5.0/`:
 
-* [code-for-DT_C5.0/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - programs for DT_C5.0
-    * [code-for-DT_C5.0/doC50.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - bash script to automate running `C5.0` with -m cases from 1 to 30 and then showing the error rates in reverse order
+*  programs for DT_C5.0
+    * [doC50.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - bash script to automate running `C5.0` with -m cases from 1 to 30 and then showing the error rates in reverse order
 
 ## To USE
 

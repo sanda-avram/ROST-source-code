@@ -1,12 +1,11 @@
 # ROST-source-code
-## [code-for-ANN/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/)
 
-## Content:
+## Content of `code-for-ANN/`:
 
-* [code-for-ANN/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/) - programs for running FANN
-    * [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) - POSIX C source file; uses libfann to build and use an ANN; Fibonacci sequence is used to generate random seeds
-    * [code-for-ANN/30runs_param_seed_neur.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/30runs_param_seed_neur.sh) - bash script for setting some parameters, compiling [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) using [code-for-ANN/Makefile](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/Makefile), creating the output directory and calling [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) to display the results
-    * [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) - display the results based on the data collected in the output directory; `myOut/` is the default output directory
+* programs for running FANN:
+    * [my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) - POSIX C source file; uses libfann to build and use an ANN; Fibonacci sequence is used to generate random seeds
+    * [30runs_param_seed_neur.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/30runs_param_seed_neur.sh) - bash script for setting some parameters, compiling [my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) using [Makefile](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/Makefile), creating the output directory and calling [showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) to display the results
+    * [showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) - display the results based on the data collected in the output directory; `myOut/` is the default output directory
 
 ## To USE
 

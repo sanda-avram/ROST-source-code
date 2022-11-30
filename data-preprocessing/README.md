@@ -3,7 +3,7 @@
 The dataset contains 400 Romanian texts written by 10 authors and it can be foud at: [https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts](https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts).
 
 
-## Data Preprocesing (contained in [data-preprocessing/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/))
+## Content of `data-preprocessing/`:
 
 
 

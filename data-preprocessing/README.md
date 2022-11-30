@@ -1,6 +1,6 @@
 # ROST-source-code
 
-The dataset contains 400 Romanian texts written by 10 authors and it can be foud at: [https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts](https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts).
+The dataset contains 400 Romanian texts written by 10 authors and it can be found at: [https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts](https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts).
 
 
 ## Content of `data-preprocessing/`:
@@ -11,10 +11,10 @@ The dataset contains 400 Romanian texts written by 10 authors and it can be foud
 
 * [ROST.csv](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/ROST.csv) - details about the 400 texts, such as: year of publishing, type of writing, title, author and (website) source
 * [dataIn/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIn/) - text files containing the texts to process; here two examples are given
-* [dataIPoS/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/) - files containing lists of IPoS; here we have: [adverbs](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/adverbs), [prepositions](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/prepositions), [conjunctions](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/conjunctions) and [interjections](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/interjections)
+* [dataIPoS/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/) - files containing lists of Inflexible Parts of Speech (IPoS); here we have: [adverbs](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/adverbs), [prepositions](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/prepositions), [conjunctions](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/conjunctions) and [interjections](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/interjections)
 
 ### Programms
-* [start.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/start.sh) - bash script to generate the dataset representations based on the files from [dataIn/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIn/) and the given Infexible Parts of Speec(IPoS) from [dataIPoS/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/); the outputs are placed into `*sets/` directories
+* [start.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/start.sh) - bash script to generate the dataset representations based on the files from [dataIn/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIn/) and the given Inflexible Parts of Speech (IPoS) from [dataIPoS/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/dataIPoS/); the outputs are placed into `*sets/` directories
 
 * [bin/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/bin) - programs; bash scripts and POSIX C source files
     * [bin/config.sh](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/bin/config.sh) - configuration file setting directory and filenames for input and output processing
@@ -33,7 +33,7 @@ The dataset contains 400 Romanian texts written by 10 authors and it can be foud
     * [dataProc_sample/Oltean_AbiaAstept/charFreq.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/charFreq.txt) - the top of char frequencies
     * [dataProc_sample/Oltean_AbiaAstept/fileToProcess.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/fileToProcess.txt) - the text file prepared by replacing ŞşŢţ’„“”—–― with ȘșȚț'\"\"\"--- and consecutive white spaces with one space
     * [dataProc_sample/Oltean_AbiaAstept/fileToProcessAlphaNum.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/fileToProcessAlphaNum.txt) - text file containing only alphanumeric chars
-    * [dataProc_sample/Oltean_AbiaAstept/iposFreq.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/iposFreq.txt) - list of frequency of occurence of the IPoSs specified; in this case all were used
+    * [dataProc_sample/Oltean_AbiaAstept/iposFreq.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/iposFreq.txt) - list of frequency of occurrence of the IPoSs specified; in this case all were used
     * [dataProc_sample/Oltean_AbiaAstept/textWithCharFreq.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/textWithCharFreq.txt)
     * [dataProc_sample/Oltean_AbiaAstept/wordFreq.txt](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/dataProc_sample/Oltean_AbiaAstept/wordFreq.txt) - top of word frequencies
 

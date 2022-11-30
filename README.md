@@ -5,24 +5,29 @@ The source code was written for the tests described in the paper called "[A comp
 
 ## Content:
 
-* [code-for-ANN/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/) - programs for running FANN
-    * [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) - POSIX C source file; uses libfann to build and use an ANN; Fibonacci sequence is used to generate random seeds
+* [code-for-ANN/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/) - programs for running FANN (details are provided at [code-for-ANN/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/README.md))
+    <!-- * [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) - POSIX C source file; uses libfann to build and use an ANN; Fibonacci sequence is used to generate random seeds
     * [code-for-ANN/30runs_param_seed_neur.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/30runs_param_seed_neur.sh) - bash script for setting some parameters, compiling [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) using [code-for-ANN/Makefile](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/Makefile), creating the output directory and calling [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) to display the results
-    * [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) - display the results based on the data collected in the output directory; `myOut/` is the default output directory
-* [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) - projects to be open with [MEPX Software](https://mepx.org/mepx_software.html "https://mepx.org/mepx_software.html"). These projects include the datasets as well as the parameters that were used
-    * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-P-MEPX-X.xml` - (where X is 1, 2 or 3) -  `MEPX` project for the 3 representations of the dataset considering prepositions
-    * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PA-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions and adverbs
-    * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PAC-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions, adverbs and conjunctions
-* [code-for-kNN/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/) - programs for kNN
-    * [code-for-kNN/KNN.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/KNN.sh) - bash script which based on training and test data and a value of k determines a class using Euclidean distance
-    * [code-for-kNN/doKNN.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/doKNN.sh) - bash script to automate running [code-for-kNN/KNN.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/KNN.sh) with k from 1 to 30 and then computing the error rate
-* [code-for-SVM/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-SVM/) - programs for SVM
-    * [code-for-SVM/doSVM.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-SVM/doSVM.sh) - bash script to automate running `libsvm` and then computing the error rate
-* [code-for-DT_C5.0/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - programs for DT_C5.0
-    * [code-for-DT_C5.0/doC50.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - bash script to automate running `C5.0` with -m cases from 1 to 30 and then showing the error rates in reverse order
-* [data-preprocessing/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/) - programs and samples for processing the text files and transform them into numerical vector representation sets to be processed by ANN, MEP, kNN, SVM and DT with C5.0 (details are provided in [data-preprocessing/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/README.md))
+    * [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) - display the results based on the data collected in the output directory; `myOut/` is the default output directory -->
 
-## To USE
+* [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) - projects to be open with [MEPX Software](https://mepx.org/mepx_software.html "https://mepx.org/mepx_software.html"). These projects include the dataset representations as well as the parameters that were used (details are provided at [code-for-MEP/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/README.md))
+    <!-- * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-P-MEPX-X.xml` - (where X is 1, 2 or 3) -  `MEPX` project for the 3 representations of the dataset considering prepositions
+    * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PA-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions and adverbs
+    * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PAC-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions, adverbs and conjunctions -->
+
+* [code-for-kNN/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/) - programs for kNN (details are provided at [code-for-kNN/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/README.md))
+    <!-- * [code-for-kNN/KNN.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/KNN.sh) - bash script which based on training and test data and a value of k determines a class using Euclidean distance
+    * [code-for-kNN/doKNN.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/doKNN.sh) - bash script to automate running [code-for-kNN/KNN.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-kNN/KNN.sh) with k from 1 to 30 and then computing the error rate -->
+
+* [code-for-SVM/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-SVM/) - programs for SVM (details are provided at [code-for-SVM/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-SVM/README.md))
+    <!-- * [code-for-SVM/doSVM.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-SVM/doSVM.sh) - bash script to automate running `libsvm` and then computing the error rate -->
+
+* [code-for-DT_C5.0/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/) - programs for DT_C5.0 (details are provided at [code-for-DT_C5.0/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/README.md))
+    <!-- * [code-for-DT_C5.0/doC50.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - bash script to automate running `C5.0` with -m cases from 1 to 30 and then showing the error rates in reverse order -->
+
+* [data-preprocessing/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/) - programs and samples for processing the text files to transform them into numerical vector representation sets to be processed by ANN, MEP, kNN, SVM and DT with C5.0 (details are provided at [data-preprocessing/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/README.md))
+
+<!-- ## To USE
 
 
 ### ANN - using FANN
@@ -116,7 +121,7 @@ To see the results ordered in reverse order, run:
 
 ```bash
     bash doC50.sh C50 rez
-```
+``` -->
 
 ## Contact:
 

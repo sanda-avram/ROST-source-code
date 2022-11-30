@@ -2,7 +2,7 @@
 
 ## Content of `code-for-MEP/`:
 
-* projects to be open with [MEPX Software](https://mepx.org/mepx_software.html "https://mepx.org/mepx_software.html"). These projects include the datasets as well as the parameters that were used
+* projects to be open with [MEPX Software](https://mepx.org/mepx_software.html "https://mepx.org/mepx_software.html"). These projects include the dataset representations as well as the parameters that were used
     * `ROST-P-MEPX-X.xml` - (where X is 1, 2 or 3) -  `MEPX` project for the 3 representations of the dataset considering prepositions
     * `ROST-PA-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions and adverbs
     * `ROST-PAC-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions, adverbs and conjunctions

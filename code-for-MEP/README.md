@@ -1,9 +1,9 @@
 # ROST-source-code
-## [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/)
+[code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/)
 
 ## Content:
 
-* [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) - projects to be included in `MEPX Software`. These projects include the datasets as well as the parameters that were used
+* [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) - projects to be open with `MEPX Software`. These projects include the datasets as well as the parameters that were used
     * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-P-MEPX-X.xml` - (where X is 1, 2 or 3) -  `MEPX` project for the 3 representations pf the dataset considering prepositions
     * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PA-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations pf the dataset considering prepositions and adverbs
     * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PAC-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations pf the dataset considering prepositions, adverbs and conjunctions

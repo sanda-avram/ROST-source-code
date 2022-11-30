@@ -5,7 +5,6 @@
 
 * [code-for-DT_C5.0/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - programs for DT_C5.0
     * [code-for-DT_C5.0/doC50.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-DT_C5.0/doC50.sh) - bash script to automate running `C5.0` with -m cases from 1 to 30 and then showing the error rates in reverse order
-* [data-preprocessing/](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/) - programs and samples for processing the text files and transform them into numerical vector representation sets to be processed by ANN, MEP, kNN, SVM and DT with C5.0 (details are provided in [data-preprocessing/README.md](https://github.com/sanda-avram/ROST-source-code/blob/main/data-preprocessing/README.md))
 
 ## To USE
 

@@ -1,4 +1,4 @@
-dir="../../kNNsets"
+dir="../data-preprocessing/kNNsets"
 
 if [ -d $dir ]
 then

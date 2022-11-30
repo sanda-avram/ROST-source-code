@@ -1,4 +1,4 @@
-dataDir="../../DT_C5.0sets"
+dataDir="../data-preprocessing/DT_C5.0sets"
 codeDir=${1-"C50"}
 n=30
 option="-m"

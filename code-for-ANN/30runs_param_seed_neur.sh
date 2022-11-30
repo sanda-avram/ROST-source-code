@@ -1,8 +1,8 @@
 
 noRuns=30
-trainFile="../../FANNsets/${1}_trainSet$2"
-validFile="../../FANNsets/${1}_validSet$2"
-testFile="../../FANNsets/${1}_testSet$2"
+trainFile="../data-preprocessing/FANNsets/${1}_trainSet$2"
+validFile="../data-preprocessing/FANNsets/${1}_validSet$2"
+testFile="../data-preprocessing/FANNsets/${1}_testSet$2"
 noInputs=`awk '(NR==2){print NF}' $testFile`
 noOutputs=10
 noLayers=3

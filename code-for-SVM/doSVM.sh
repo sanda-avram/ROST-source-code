@@ -1,4 +1,4 @@
-dataDir="../../SVMsets"
+dataDir="../data-preprocessing/SVMsets"
 codeDir=${1-"libsvm-master"}
 
 # if [ ! -d $dataDir ]

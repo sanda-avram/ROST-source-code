@@ -33,7 +33,7 @@ After that, just run:
 ```
 
 
- where the first parameter `2022-10-19-22-09` is the start of the filename of the FANN format files from `FANNsets/` so that the specific files can be identified, and the second parameter `1` represents the end of the filename of the FANN format files to identify the shuffle.
+ where the first parameter `2022-10-19-22-09` is the start of the filename of the FANN format files from `../data-preprocessing/FANNsets/` so that the specific files can be identified, and the second parameter `1` represents the end of the filename of the FANN format files to identify the shuffle.
 
  If one wants to run uninterruptedly even after exiting the shell or terminal, use:
 

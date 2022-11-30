@@ -9,7 +9,7 @@ The source code was written for the tests described in the paper called "[A comp
     * [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) - POSIX C source file; uses libfann to build and use an ANN; Fibonacci sequence is used to generate random seeds
     * [code-for-ANN/30runs_param_seed_neur.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/30runs_param_seed_neur.sh) - bash script for setting some parameters, compiling [code-for-ANN/my_trainValidTest_seedFib.c](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/my_trainValidTest_seedFib.c) using [code-for-ANN/Makefile](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/Makefile), creating the output directory and calling [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) to display the results
     * [code-for-ANN/showResults.sh](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-ANN/showResults.sh) - display the results based on the data collected in the output directory; `myOut/` is the default output directory
-* [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) - projects to be open with `MEPX Software`. These projects include the datasets as well as the parameters that were used
+* [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) - projects to be open with [MEPX Software](https://mepx.org/mepx_software.html "https://mepx.org/mepx_software.html"). These projects include the datasets as well as the parameters that were used
     * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-P-MEPX-X.xml` - (where X is 1, 2 or 3) -  `MEPX` project for the 3 representations of the dataset considering prepositions
     * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PA-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions and adverbs
     * [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/tree/main/data-preprocessing/code-for-MEP/)`ROST-PAC-MEPX-X.xml` - (where X is 1, 2 or 3) - `MEPX` project for the 3 representations of the dataset considering prepositions, adverbs and conjunctions
@@ -48,7 +48,7 @@ After that, just run:
 ```
 
 
- where the first parameter `2022-10-19-22-09` is the start of the filename of the FANN format files from `FANNsets/` so that the specific files can be identified, and the second parameter `1` represents the end of the filename of the FANN format files to identify the shuffle.
+ where the first parameter `2022-10-19-22-09` is the start of the filename of the FANN format files from `data-preprocessing/FANNsets/` so that the specific files can be identified, and the second parameter `1` represents the end of the filename of the FANN format files to identify the shuffle.
 
  If one wants to run uninterruptedly even after exiting the shell or terminal, use:
 
@@ -58,7 +58,7 @@ After that, just run:
 
 ### MEP - using MEPX software
 
-Install MEPX Software from [https://mepx.org/mepx_software.html](https://mepx.org/mepx_software.html). It has a friendly, graphical interface that is easy to use. One can use the projects provided in [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) by loading them directly in [MEPX](https://mepx.org/mepx_software.html), or run the tests by setting the parameters as detailed in "[A comparison of several AI techniques for authorship attribution on Romanian texts](https://www.researchgate.net/publication/365299177_A_comparison_of_several_AI_techniques_for_authorship_attribution_on_Romanian_texts)" and use the files generated in `MEPsets/` or the ones provided on [Kaggle](https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts).
+Install MEPX Software from [https://mepx.org/mepx_software.html](https://mepx.org/mepx_software.html). It has a friendly, graphical interface that is easy to use. One can use the projects provided in [code-for-MEP/](https://github.com/sanda-avram/ROST-source-code/blob/main/code-for-MEP/) by loading them directly in [MEPX](https://mepx.org/mepx_software.html), or run the tests by setting the parameters as detailed in "[A comparison of several AI techniques for authorship attribution on Romanian texts](https://www.researchgate.net/publication/365299177_A_comparison_of_several_AI_techniques_for_authorship_attribution_on_Romanian_texts)" and use the files generated in `data-preprocessing/MEPsets/` or the ones provided on [Kaggle](https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts "https://www.kaggle.com/datasets/sandamariaavram/rost-romanian-stories-and-other-texts").
 
 ### kNN
 
